@@ -12,6 +12,10 @@
       var num = document.getElementById('n1');
       num.value = Math.pow(num.value, 3);
     }
+    function cuarta(){
+      var num = document.getElementById('n1');
+      num.value = Math.pow(num.value, 4);
+    }
   </script>
 </head>
 <body>
@@ -22,7 +26,10 @@
     </div>
   </div> <!-- inputs -->
   <div class="row">
-    <button onclick="cube()" class="ui primary button">x<sup>3</sup></button>
+    <div class="ui buttons">
+      <button onclick="cube()" class="ui primary button">x<sup>3</sup></button>
+      <button onclick="cuarta()" class="ui primary button">x<sup>4</sup></button>
+    </div>
   </div> <!-- botones -->
   </body>
   </html>
